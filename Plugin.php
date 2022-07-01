@@ -86,7 +86,7 @@ class QQSupport_Plugin implements Typecho_Plugin_Interface
   public function getQQAvatar($id = "1")
   {
     $QQ = QQSupport_Plugin::getQQ($id);
-    $url = "https://q2.qlogo.cn/headimg_dl?bs={$QQ}&dst_uin={$QQ}&dst_uin={$QQ}&;dst_uin={$QQ}&spec=100&url_enc=0&referer=bu_interface&term_type=PC";
+    $url = "https://q1.qlogo.cn/headimg_dl?bs={$QQ}&dst_uin={$QQ}&dst_uin={$QQ}&;dst_uin={$QQ}&spec=100&url_enc=0&referer=bu_interface&term_type=PC";
     echo $url;
   }
 }
